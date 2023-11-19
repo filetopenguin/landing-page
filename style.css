@@ -1,0 +1,151 @@
+body,
+.top,
+.second,aa
+.third,
+.fourth-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.first,
+.links,
+.images,
+.fourth{
+    display:flex;
+}
+
+.top{
+    align-items: center;
+    background-color: burlywood;
+}
+.third{
+    background-color:burlywood;
+}
+.links{
+    gap:15px;
+    margin-top: 20px;
+}
+
+.first{
+    gap:100px;
+    align-items: center;
+}
+.header{
+    gap: 450px;
+    color: azure;
+}
+.first-container{
+    padding-bottom: 100px;
+    width: 470px;
+    color:azure;
+}
+.third{
+    text-align: center;
+    justify-content: center;
+}
+.placeholder{
+    text-align: center;
+    color: rgb(165, 102, 19);
+    width: 500px;
+    height: 200px;
+    background-color: beige;
+}
+.links a{
+    text-decoration: none;
+    font-size: 18px;
+    color:azure;
+}
+.placeholder p{
+    margin: 90px;
+}
+
+.first-button{
+    background-color: azure;
+    border-color: blueviolet;
+    border-radius: 10px;
+    color: rgb(16, 109, 76);
+    padding:0;
+    width: 100px;
+    height: 30px;
+}
+.second-header{
+    text-align: center;
+    font-size:36px;
+    font-weight: 900;
+    color:rgb(0, 0, 0);
+}
+
+.image-subtext p{
+    width:180px;
+    text-align: center;
+
+}
+.images{
+    margin-left:auto;
+    margin-right: auto;
+    gap:20px;
+}
+.image-subtext img{
+    height:200px;
+    width: 200px;
+    border-radius:10px;
+    border:salmon 2px;
+}
+.quote{
+    
+    font-size:36px;
+    font-weight: 400;
+    margin-top:200px;
+    margin-bottom:auto;
+    font-style:italic;
+}
+.quotet{
+    
+    size:10px;
+    padding-left: 150px;
+    flex-basis: 200px;
+}
+.fourth{
+    margin:80px 150px 80px 150px;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    height:140px;
+    width: 1000px;
+}
+.fourth-text{
+    background-color: burlywood;
+    text-align: center;
+    border-radius: 25px;
+    padding:10px;
+    font-style: oblique;
+  
+}
+.fourth-subtext{
+    margin:0 0 40px 0;
+}
+.fourth-header{
+    font-weight: 900;
+    font-size: 18px;
+    margin: 40px 0 0 0;
+}
+.fourth-button{
+    align-self: center;
+    padding: 5px 25px 5px 25px;
+    color: rgb(14, 97, 97);
+    background-color: rgb(194, 137, 69);
+    border-radius: 20px;
+    border-color: black;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: burlywood;
+
+}
+.footer-text{
+    font-size: 10px;
+}
